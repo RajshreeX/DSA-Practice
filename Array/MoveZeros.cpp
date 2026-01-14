@@ -12,7 +12,7 @@ void moveZeroes(vector<int>& nums) {
     }
 
     //Brute force
-    //T:O(n^2)    short:O(1)
+    //T:O(n^2)    S:O(1)
     void moveZeroes(vector<int>& nums) {
         int k=nums.size()-1;
         for(int i=0; i<nums.size();i++) {
