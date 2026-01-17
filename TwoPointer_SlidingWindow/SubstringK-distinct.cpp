@@ -2,8 +2,8 @@
 
 //Sliding Window: 
 //1.I feed the array into a map
-//2. start shrinking window size from left, if freq of element on left becomes 0; i erase that element from map
-//3. i count all substring anding at right as right count=count+right-left+1
+//2. i start shrinking window size from left, if freq of element on left becomes 0; i erase that element from map
+//3. i count all substring ending at right as right count=count+right-left+1
 //4. i return count
 //5. finally, i find req substring by Substrings with at most K distinct−Substrings with at most (K−1) distinct
 
